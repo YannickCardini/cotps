@@ -1,0 +1,2055 @@
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 104, in sell
+    self.wait(self.delay)
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 93, in wait
+    self.action.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/action_chains.py", line 75, in perform
+    self.w3c_actions.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/actions/action_builder.py", line 88, in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 104, in sell
+    self.wait(self.delay)
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 93, in wait
+    self.action.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/action_chains.py", line 75, in perform
+    self.w3c_actions.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/actions/action_builder.py", line 88, in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 104, in sell
+    self.wait(self.delay)
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 93, in wait
+    self.action.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/action_chains.py", line 75, in perform
+    self.w3c_actions.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/actions/action_builder.py", line 88, in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 116, in sell
+    self.driver.find_element(by=By.XPATH, value=commande_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <uni-button data-v-2fa3158e="" class="orderBtn" type="primary" style="margin-top: 44px;">...</uni-button> is not clickable at point (392, 577). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: headless chrome=101.0.4951.54)
+Stacktrace:
+#0 0x562234f28533 <unknown>
+#1 0x562234c871e8 <unknown>
+#2 0x562234cc4972 <unknown>
+#3 0x562234cc24d2 <unknown>
+#4 0x562234cbfb64 <unknown>
+#5 0x562234cbe902 <unknown>
+#6 0x562234cb24a9 <unknown>
+#7 0x562234cdaf42 <unknown>
+#8 0x562234cb1d63 <unknown>
+#9 0x562234cdb04e <unknown>
+#10 0x562234cee224 <unknown>
+#11 0x562234cdae33 <unknown>
+#12 0x562234cb071a <unknown>
+#13 0x562234cb1875 <unknown>
+#14 0x562234f6ce1d <unknown>
+#15 0x562234f70751 <unknown>
+#16 0x562234f5707e <unknown>
+#17 0x562234f71388 <unknown>
+#18 0x562234f4bfe0 <unknown>
+#19 0x562234f8d748 <unknown>
+#20 0x562234f8d8c8 <unknown>
+#21 0x562234fa770d <unknown>
+#22 0x7f7b4a84c609 <unknown>
+
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 116, in sell
+    self.driver.find_element(by=By.XPATH, value=commande_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <uni-button data-v-2fa3158e="" class="orderBtn" type="primary" style="margin-top: 44px;">...</uni-button> is not clickable at point (392, 577). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: headless chrome=101.0.4951.54)
+Stacktrace:
+#0 0x55fa706da533 <unknown>
+#1 0x55fa704391e8 <unknown>
+#2 0x55fa70476972 <unknown>
+#3 0x55fa704744d2 <unknown>
+#4 0x55fa70471b64 <unknown>
+#5 0x55fa70470902 <unknown>
+#6 0x55fa704644a9 <unknown>
+#7 0x55fa7048cf42 <unknown>
+#8 0x55fa70463d63 <unknown>
+#9 0x55fa7048d04e <unknown>
+#10 0x55fa704a0224 <unknown>
+#11 0x55fa7048ce33 <unknown>
+#12 0x55fa7046271a <unknown>
+#13 0x55fa70463875 <unknown>
+#14 0x55fa7071ee1d <unknown>
+#15 0x55fa70722751 <unknown>
+#16 0x55fa7070907e <unknown>
+#17 0x55fa70723388 <unknown>
+#18 0x55fa706fdfe0 <unknown>
+#19 0x55fa7073f748 <unknown>
+#20 0x55fa7073f8c8 <unknown>
+#21 0x55fa7075970d <unknown>
+#22 0x7f7a7e7d3609 <unknown>
+
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 116, in sell
+    self.driver.find_element(by=By.XPATH, value=commande_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <uni-button data-v-2fa3158e="" class="orderBtn" type="primary" style="margin-top: 44px;">...</uni-button> is not clickable at point (392, 577). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: headless chrome=101.0.4951.54)
+Stacktrace:
+#0 0x55628d823533 <unknown>
+#1 0x55628d5821e8 <unknown>
+#2 0x55628d5bf972 <unknown>
+#3 0x55628d5bd4d2 <unknown>
+#4 0x55628d5bab64 <unknown>
+#5 0x55628d5b9902 <unknown>
+#6 0x55628d5ad4a9 <unknown>
+#7 0x55628d5d5f42 <unknown>
+#8 0x55628d5acd63 <unknown>
+#9 0x55628d5d604e <unknown>
+#10 0x55628d5e9224 <unknown>
+#11 0x55628d5d5e33 <unknown>
+#12 0x55628d5ab71a <unknown>
+#13 0x55628d5ac875 <unknown>
+#14 0x55628d867e1d <unknown>
+#15 0x55628d86b751 <unknown>
+#16 0x55628d85207e <unknown>
+#17 0x55628d86c388 <unknown>
+#18 0x55628d846fe0 <unknown>
+#19 0x55628d888748 <unknown>
+#20 0x55628d8888c8 <unknown>
+#21 0x55628d8a270d <unknown>
+#22 0x7fe5863c2609 <unknown>
+
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 116, in sell
+    self.driver.find_element(by=By.XPATH, value=commande_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <uni-button data-v-2fa3158e="" class="orderBtn" type="primary" style="margin-top: 44px;">...</uni-button> is not clickable at point (392, 577). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: headless chrome=101.0.4951.54)
+Stacktrace:
+#0 0x5623897ce533 <unknown>
+#1 0x56238952d1e8 <unknown>
+#2 0x56238956a972 <unknown>
+#3 0x5623895684d2 <unknown>
+#4 0x562389565b64 <unknown>
+#5 0x562389564902 <unknown>
+#6 0x5623895584a9 <unknown>
+#7 0x562389580f42 <unknown>
+#8 0x562389557d63 <unknown>
+#9 0x56238958104e <unknown>
+#10 0x562389594224 <unknown>
+#11 0x562389580e33 <unknown>
+#12 0x56238955671a <unknown>
+#13 0x562389557875 <unknown>
+#14 0x562389812e1d <unknown>
+#15 0x562389816751 <unknown>
+#16 0x5623897fd07e <unknown>
+#17 0x562389817388 <unknown>
+#18 0x5623897f1fe0 <unknown>
+#19 0x562389833748 <unknown>
+#20 0x5623898338c8 <unknown>
+#21 0x56238984d70d <unknown>
+#22 0x7f9ea649b609 <unknown>
+
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 104, in sell
+    self.wait(self.delay)
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 93, in wait
+    self.action.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/action_chains.py", line 75, in perform
+    self.w3c_actions.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/actions/action_builder.py", line 88, in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 116, in sell
+    self.driver.find_element(by=By.XPATH, value=commande_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <uni-button data-v-2fa3158e="" class="orderBtn" type="primary" style="margin-top: 44px;">...</uni-button> is not clickable at point (392, 577). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: headless chrome=101.0.4951.54)
+Stacktrace:
+#0 0x55d5dd28c533 <unknown>
+#1 0x55d5dcfeb1e8 <unknown>
+#2 0x55d5dd028972 <unknown>
+#3 0x55d5dd0264d2 <unknown>
+#4 0x55d5dd023b64 <unknown>
+#5 0x55d5dd022902 <unknown>
+#6 0x55d5dd0164a9 <unknown>
+#7 0x55d5dd03ef42 <unknown>
+#8 0x55d5dd015d63 <unknown>
+#9 0x55d5dd03f04e <unknown>
+#10 0x55d5dd052224 <unknown>
+#11 0x55d5dd03ee33 <unknown>
+#12 0x55d5dd01471a <unknown>
+#13 0x55d5dd015875 <unknown>
+#14 0x55d5dd2d0e1d <unknown>
+#15 0x55d5dd2d4751 <unknown>
+#16 0x55d5dd2bb07e <unknown>
+#17 0x55d5dd2d5388 <unknown>
+#18 0x55d5dd2affe0 <unknown>
+#19 0x55d5dd2f1748 <unknown>
+#20 0x55d5dd2f18c8 <unknown>
+#21 0x55d5dd30b70d <unknown>
+#22 0x7f515d695609 <unknown>
+
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 116, in sell
+    self.driver.find_element(by=By.XPATH, value=commande_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <uni-button data-v-2fa3158e="" class="orderBtn" type="primary" style="margin-top: 44px;">...</uni-button> is not clickable at point (392, 577). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: headless chrome=101.0.4951.54)
+Stacktrace:
+#0 0x559043f27533 <unknown>
+#1 0x559043c861e8 <unknown>
+#2 0x559043cc3972 <unknown>
+#3 0x559043cc14d2 <unknown>
+#4 0x559043cbeb64 <unknown>
+#5 0x559043cbd902 <unknown>
+#6 0x559043cb14a9 <unknown>
+#7 0x559043cd9f42 <unknown>
+#8 0x559043cb0d63 <unknown>
+#9 0x559043cda04e <unknown>
+#10 0x559043ced224 <unknown>
+#11 0x559043cd9e33 <unknown>
+#12 0x559043caf71a <unknown>
+#13 0x559043cb0875 <unknown>
+#14 0x559043f6be1d <unknown>
+#15 0x559043f6f751 <unknown>
+#16 0x559043f5607e <unknown>
+#17 0x559043f70388 <unknown>
+#18 0x559043f4afe0 <unknown>
+#19 0x559043f8c748 <unknown>
+#20 0x559043f8c8c8 <unknown>
+#21 0x559043fa670d <unknown>
+#22 0x7fe6eecf4609 <unknown>
+
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 116, in sell
+    self.driver.find_element(by=By.XPATH, value=commande_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 29, in arbritage_all_accounts
+    cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 75, in login_process
+    self.wait(self.delay)
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 93, in wait
+    self.action.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/action_chains.py", line 75, in perform
+    self.w3c_actions.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/actions/action_builder.py", line 88, in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7ff8b8423d00>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 104, in sell
+    self.wait(self.delay)
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 93, in wait
+    self.action.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/action_chains.py", line 75, in perform
+    self.w3c_actions.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/actions/action_builder.py", line 88, in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 813, in urlopen
+    return self.urlopen(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 813, in urlopen
+    return self.urlopen(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 813, in urlopen
+    return self.urlopen(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=41407): Max retries exceeded with url: /session/0c2b3cd900d3b6fb9db5efa0087d9f86/actions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff8b8423d00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 28, in arbritage_all_accounts
+    cot = cotps.Cotps()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 13, in __init__
+    self.driver = self.launchBrowser()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 37, in launchBrowser
+    self.driver.get('https://www.cotps.com/#/pages/phonecode/phonecode?from=login')
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 442, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 37, in arbritage_all_accounts
+    time.sleep(10)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 29, in arbritage_all_accounts
+    cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 76, in login_process
+    WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.XPATH, mobile_number_xpath)))
+NameError: name 'thailand_xpath' is not defined
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 37, in arbritage_all_accounts
+    time.sleep(10)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 29, in arbritage_all_accounts
+    cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 99, in login_process
+    self.wait(self.delay)
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 117, in wait
+    self.action.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/action_chains.py", line 75, in perform
+    self.w3c_actions.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/actions/action_builder.py", line 88, in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 136, in sell
+    self.driver.find_element(by=By.XPATH, value=commande_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <uni-button data-v-2fa3158e="" class="orderBtn" type="primary" style="margin-top: 21px;">...</uni-button> is not clickable at point (952, 405). Other element would receive the click: <div class="uni-mask" style="background: transparent;"></div>
+  (Session info: headless chrome=101.0.4951.54)
+Stacktrace:
+#0 0x558a99183443 <unknown>
+#1 0x558a98ee36d8 <unknown>
+#2 0x558a98f201f2 <unknown>
+#3 0x558a98f1dd52 <unknown>
+#4 0x558a98f1b3e4 <unknown>
+#5 0x558a98f1a182 <unknown>
+#6 0x558a98f0dd89 <unknown>
+#7 0x558a98f36092 <unknown>
+#8 0x558a98f0d645 <unknown>
+#9 0x558a98f3619e <unknown>
+#10 0x558a98f49131 <unknown>
+#11 0x558a98f35f83 <unknown>
+#12 0x558a98f0c03c <unknown>
+#13 0x558a98f0d175 <unknown>
+#14 0x558a991c3f86 <unknown>
+#15 0x558a991c75ec <unknown>
+#16 0x558a991af99e <unknown>
+#17 0x558a991c8054 <unknown>
+#18 0x558a991a485e <unknown>
+#19 0x558a991e1868 <unknown>
+#20 0x558a991e19c3 <unknown>
+#21 0x558a991fb263 <unknown>
+#22 0x7fe1da901609 <unknown>
+
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 28, in arbritage_all_accounts
+    cot = cotps.Cotps()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 13, in __init__
+    self.driver = self.launchBrowser()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 37, in launchBrowser
+    self.driver.get('https://www.cotps.com/#/pages/phonecode/phonecode?from=login')
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 442, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 29, in arbritage_all_accounts
+    cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 99, in login_process
+    self.wait(self.delay)
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 117, in wait
+    self.action.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/action_chains.py", line 75, in perform
+    self.w3c_actions.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/actions/action_builder.py", line 88, in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 146, in sell
+    self.driver.find_element(by=By.XPATH, value=commande_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <uni-button data-v-2fa3158e="" class="orderBtn" type="primary" style="margin-top: 44px;">...</uni-button> is not clickable at point (392, 577). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: headless chrome=101.0.4951.54)
+Stacktrace:
+#0 0x55bd147ec443 <unknown>
+#1 0x55bd1454c6d8 <unknown>
+#2 0x55bd145891f2 <unknown>
+#3 0x55bd14586d52 <unknown>
+#4 0x55bd145843e4 <unknown>
+#5 0x55bd14583182 <unknown>
+#6 0x55bd14576d89 <unknown>
+#7 0x55bd1459f092 <unknown>
+#8 0x55bd14576645 <unknown>
+#9 0x55bd1459f19e <unknown>
+#10 0x55bd145b2131 <unknown>
+#11 0x55bd1459ef83 <unknown>
+#12 0x55bd1457503c <unknown>
+#13 0x55bd14576175 <unknown>
+#14 0x55bd1482cf86 <unknown>
+#15 0x55bd148305ec <unknown>
+#16 0x55bd1481899e <unknown>
+#17 0x55bd14831054 <unknown>
+#18 0x55bd1480d85e <unknown>
+#19 0x55bd1484a868 <unknown>
+#20 0x55bd1484a9c3 <unknown>
+#21 0x55bd14864263 <unknown>
+#22 0x7f61f8934609 <unknown>
+
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 146, in sell
+    self.driver.find_element(by=By.XPATH, value=commande_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <uni-button data-v-2fa3158e="" class="orderBtn" type="primary" style="margin-top: 51px;">...</uni-button> is not clickable at point (448, 838). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: chrome=101.0.4951.54)
+Stacktrace:
+#0 0x5641765a9443 <unknown>
+#1 0x5641763096d8 <unknown>
+#2 0x5641763461f2 <unknown>
+#3 0x564176343d52 <unknown>
+#4 0x5641763413e4 <unknown>
+#5 0x564176340182 <unknown>
+#6 0x564176333d89 <unknown>
+#7 0x56417635c092 <unknown>
+#8 0x564176333645 <unknown>
+#9 0x56417635c19e <unknown>
+#10 0x56417636f131 <unknown>
+#11 0x56417635bf83 <unknown>
+#12 0x56417633203c <unknown>
+#13 0x564176333175 <unknown>
+#14 0x5641765e9f86 <unknown>
+#15 0x5641765ed5ec <unknown>
+#16 0x5641765d599e <unknown>
+#17 0x5641765ee054 <unknown>
+#18 0x5641765ca85e <unknown>
+#19 0x564176607868 <unknown>
+#20 0x5641766079c3 <unknown>
+#21 0x564176621263 <unknown>
+#22 0x7fcc4efd6609 <unknown>
+
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 37, in arbritage_all_accounts
+    time.sleep(10)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 37, in arbritage_all_accounts
+    time.sleep(10)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 29, in arbritage_all_accounts
+    cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 116, in login_process
+    self.wait(self.delay)
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 134, in wait
+    self.action.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/action_chains.py", line 75, in perform
+    self.w3c_actions.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/actions/action_builder.py", line 88, in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 149, in sell
+    WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH,commande_xpath)))
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 78, in until
+    value = method(self._driver)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py", line 326, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1251, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 37, in arbritage_all_accounts
+    time.sleep(10)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 29, in arbritage_all_accounts
+    cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 110, in login_process
+    WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.XPATH, mobile_number_xpath)))
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 86, in until
+    time.sleep(self._poll)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 45, in <module>
+    list_accounts = get_accounts()
+  File "main.py", line 39, in arbritage_all_accounts
+    sys.stdout.flush()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 30, in arbritage_all_accounts
+    cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 116, in login_process
+    self.wait(self.delay)
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 134, in wait
+    self.action.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/action_chains.py", line 75, in perform
+    self.w3c_actions.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/actions/action_builder.py", line 88, in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    arbritage_all_accounts(list_accounts)
+  File "main.py", line 40, in arbritage_all_accounts
+    time.sleep(10)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 11, in get_accounts
+    with open('/data/accounts.txt') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/accounts.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 28, in arbritage_all_accounts
+    list_accounts = get_accounts()
+  File "main.py", line 16, in get_accounts
+    codeCountry = input("Enter your international country code: ")
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 11, in get_accounts
+    with open('/data/accounts.txt') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/accounts.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 28, in arbritage_all_accounts
+    list_accounts = get_accounts()
+  File "main.py", line 16, in get_accounts
+    codeCountry = input("Enter your international country code: ")
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 32, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 142, in sell
+    self.driver.find_element(by=By.XPATH, value=commande_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <uni-button data-v-2fa3158e="" class="orderBtn" type="primary" style="margin-top: 44px;">...</uni-button> is not clickable at point (392, 577). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: headless chrome=101.0.4951.54)
+Stacktrace:
+#0 0x562644e96533 <unknown>
+#1 0x562644bf51e8 <unknown>
+#2 0x562644c32972 <unknown>
+#3 0x562644c304d2 <unknown>
+#4 0x562644c2db64 <unknown>
+#5 0x562644c2c902 <unknown>
+#6 0x562644c204a9 <unknown>
+#7 0x562644c48f42 <unknown>
+#8 0x562644c1fd63 <unknown>
+#9 0x562644c4904e <unknown>
+#10 0x562644c5c224 <unknown>
+#11 0x562644c48e33 <unknown>
+#12 0x562644c1e71a <unknown>
+#13 0x562644c1f875 <unknown>
+#14 0x562644edae1d <unknown>
+#15 0x562644ede751 <unknown>
+#16 0x562644ec507e <unknown>
+#17 0x562644edf388 <unknown>
+#18 0x562644eb9fe0 <unknown>
+#19 0x562644efb748 <unknown>
+#20 0x562644efb8c8 <unknown>
+#21 0x562644f1570d <unknown>
+#22 0x7f6fd126b609 <unknown>
+
+Traceback (most recent call last):
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 32, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 141, in sell
+    WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH,commande_xpath)))
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 78, in until
+    value = method(self._driver)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py", line 326, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1251, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 32, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 142, in sell
+    self.driver.find_element(by=By.XPATH, value=commande_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <uni-button data-v-2fa3158e="" class="orderBtn" type="primary" style="margin-top: 44px;">...</uni-button> is not clickable at point (392, 577). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: headless chrome=101.0.4951.54)
+Stacktrace:
+#0 0x5607fc32f533 <unknown>
+#1 0x5607fc08e1e8 <unknown>
+#2 0x5607fc0cb972 <unknown>
+#3 0x5607fc0c94d2 <unknown>
+#4 0x5607fc0c6b64 <unknown>
+#5 0x5607fc0c5902 <unknown>
+#6 0x5607fc0b94a9 <unknown>
+#7 0x5607fc0e1f42 <unknown>
+#8 0x5607fc0b8d63 <unknown>
+#9 0x5607fc0e204e <unknown>
+#10 0x5607fc0f5224 <unknown>
+#11 0x5607fc0e1e33 <unknown>
+#12 0x5607fc0b771a <unknown>
+#13 0x5607fc0b8875 <unknown>
+#14 0x5607fc373e1d <unknown>
+#15 0x5607fc377751 <unknown>
+#16 0x5607fc35e07e <unknown>
+#17 0x5607fc378388 <unknown>
+#18 0x5607fc352fe0 <unknown>
+#19 0x5607fc394748 <unknown>
+#20 0x5607fc3948c8 <unknown>
+#21 0x5607fc3ae70d <unknown>
+#22 0x7fca6de88609 <unknown>
+
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 32, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 142, in sell
+    self.driver.find_element(by=By.XPATH, value=commande_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <uni-button data-v-2fa3158e="" class="orderBtn" type="primary" style="margin-top: 44px;">...</uni-button> is not clickable at point (392, 577). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: headless chrome=101.0.4951.54)
+Stacktrace:
+#0 0x556bbea2c533 <unknown>
+#1 0x556bbe78b1e8 <unknown>
+#2 0x556bbe7c8972 <unknown>
+#3 0x556bbe7c64d2 <unknown>
+#4 0x556bbe7c3b64 <unknown>
+#5 0x556bbe7c2902 <unknown>
+#6 0x556bbe7b64a9 <unknown>
+#7 0x556bbe7def42 <unknown>
+#8 0x556bbe7b5d63 <unknown>
+#9 0x556bbe7df04e <unknown>
+#10 0x556bbe7f2224 <unknown>
+#11 0x556bbe7dee33 <unknown>
+#12 0x556bbe7b471a <unknown>
+#13 0x556bbe7b5875 <unknown>
+#14 0x556bbea70e1d <unknown>
+#15 0x556bbea74751 <unknown>
+#16 0x556bbea5b07e <unknown>
+#17 0x556bbea75388 <unknown>
+#18 0x556bbea4ffe0 <unknown>
+#19 0x556bbea91748 <unknown>
+#20 0x556bbea918c8 <unknown>
+#21 0x556bbeaab70d <unknown>
+#22 0x7f15c99bb609 <unknown>
+
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 32, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 143, in sell
+    self.driver.find_element(by=By.XPATH, value=commande_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <uni-button data-v-2fa3158e="" class="orderBtn" type="primary" style="margin-top: 44px;">...</uni-button> is not clickable at point (392, 577). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: headless chrome=101.0.4951.54)
+Stacktrace:
+#0 0x55c9714df533 <unknown>
+#1 0x55c97123e1e8 <unknown>
+#2 0x55c97127b972 <unknown>
+#3 0x55c9712794d2 <unknown>
+#4 0x55c971276b64 <unknown>
+#5 0x55c971275902 <unknown>
+#6 0x55c9712694a9 <unknown>
+#7 0x55c971291f42 <unknown>
+#8 0x55c971268d63 <unknown>
+#9 0x55c97129204e <unknown>
+#10 0x55c9712a5224 <unknown>
+#11 0x55c971291e33 <unknown>
+#12 0x55c97126771a <unknown>
+#13 0x55c971268875 <unknown>
+#14 0x55c971523e1d <unknown>
+#15 0x55c971527751 <unknown>
+#16 0x55c97150e07e <unknown>
+#17 0x55c971528388 <unknown>
+#18 0x55c971502fe0 <unknown>
+#19 0x55c971544748 <unknown>
+#20 0x55c9715448c8 <unknown>
+#21 0x55c97155e70d <unknown>
+#22 0x7f973bc60609 <unknown>
+
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 32, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 143, in sell
+    self.driver.find_element(by=By.XPATH, value=commande_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <uni-button data-v-2fa3158e="" class="orderBtn" type="primary" style="margin-top: 44px;">...</uni-button> is not clickable at point (392, 577). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: headless chrome=101.0.4951.54)
+Stacktrace:
+#0 0x55c90879c533 <unknown>
+#1 0x55c9084fb1e8 <unknown>
+#2 0x55c908538972 <unknown>
+#3 0x55c9085364d2 <unknown>
+#4 0x55c908533b64 <unknown>
+#5 0x55c908532902 <unknown>
+#6 0x55c9085264a9 <unknown>
+#7 0x55c90854ef42 <unknown>
+#8 0x55c908525d63 <unknown>
+#9 0x55c90854f04e <unknown>
+#10 0x55c908562224 <unknown>
+#11 0x55c90854ee33 <unknown>
+#12 0x55c90852471a <unknown>
+#13 0x55c908525875 <unknown>
+#14 0x55c9087e0e1d <unknown>
+#15 0x55c9087e4751 <unknown>
+#16 0x55c9087cb07e <unknown>
+#17 0x55c9087e5388 <unknown>
+#18 0x55c9087bffe0 <unknown>
+#19 0x55c908801748 <unknown>
+#20 0x55c9088018c8 <unknown>
+#21 0x55c90881b70d <unknown>
+#22 0x7f4803f11609 <unknown>
+
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 32, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 143, in sell
+    self.driver.find_element(by=By.XPATH, value=commande_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <uni-button data-v-2fa3158e="" class="orderBtn" type="primary" style="margin-top: 44px;">...</uni-button> is not clickable at point (392, 577). Other element would receive the click: <div class="uni-tabbar__item">...</div>
+  (Session info: headless chrome=101.0.4951.54)
+Stacktrace:
+#0 0x55fa8c97a533 <unknown>
+#1 0x55fa8c6d91e8 <unknown>
+#2 0x55fa8c716972 <unknown>
+#3 0x55fa8c7144d2 <unknown>
+#4 0x55fa8c711b64 <unknown>
+#5 0x55fa8c710902 <unknown>
+#6 0x55fa8c7044a9 <unknown>
+#7 0x55fa8c72cf42 <unknown>
+#8 0x55fa8c703d63 <unknown>
+#9 0x55fa8c72d04e <unknown>
+#10 0x55fa8c740224 <unknown>
+#11 0x55fa8c72ce33 <unknown>
+#12 0x55fa8c70271a <unknown>
+#13 0x55fa8c703875 <unknown>
+#14 0x55fa8c9bee1d <unknown>
+#15 0x55fa8c9c2751 <unknown>
+#16 0x55fa8c9a907e <unknown>
+#17 0x55fa8c9c3388 <unknown>
+#18 0x55fa8c99dfe0 <unknown>
+#19 0x55fa8c9df748 <unknown>
+#20 0x55fa8c9df8c8 <unknown>
+#21 0x55fa8c9f970d <unknown>
+#22 0x7f90bf0f0609 <unknown>
+
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 31, in arbritage_all_accounts
+    cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 87, in login_process
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 442, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 31, in arbritage_all_accounts
+    cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 111, in login_process
+    self.driver.find_element(by=By.XPATH, value=login_xpath).click()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 11, in get_accounts
+    with open('/data/accounts.txt') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/accounts.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 28, in arbritage_all_accounts
+    list_accounts = get_accounts()
+  File "main.py", line 16, in get_accounts
+    codeCountry = input("Enter your international country code: ")
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 48, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 34, in arbritage_all_accounts
+    cot.sell()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 139, in sell
+    while(float(solde) > 10):
+ValueError: could not convert string to float: 'record de recharge'
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 33, in arbritage_all_accounts
+    logged = cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 102, in login_process
+    WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.XPATH, mobile_number_xpath)))
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 89, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x561b7a876443 <unknown>
+#1 0x561b7a5d66d8 <unknown>
+#2 0x561b7a60bb57 <unknown>
+#3 0x561b7a60bd21 <unknown>
+#4 0x561b7a63e434 <unknown>
+#5 0x561b7a6290bd <unknown>
+#6 0x561b7a63c131 <unknown>
+#7 0x561b7a628f83 <unknown>
+#8 0x561b7a5ff03c <unknown>
+#9 0x561b7a600175 <unknown>
+#10 0x561b7a8b6f86 <unknown>
+#11 0x561b7a8ba5ec <unknown>
+#12 0x561b7a8a299e <unknown>
+#13 0x561b7a8bb054 <unknown>
+#14 0x561b7a89785e <unknown>
+#15 0x561b7a8d4868 <unknown>
+#16 0x561b7a8d49c3 <unknown>
+#17 0x561b7a8ee263 <unknown>
+#18 0x7fe883277609 <unknown>
+
+Traceback (most recent call last):
+  File "main.py", line 12, in get_accounts
+    with open('/data/accounts.txt') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/accounts.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 30, in arbritage_all_accounts
+    list_accounts = get_accounts()
+  File "main.py", line 17, in get_accounts
+    codeCountry = input("Enter your international country code: ")
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 12, in get_accounts
+    with open('/data/accounts.txt') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/accounts.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 30, in arbritage_all_accounts
+    list_accounts = get_accounts()
+  File "main.py", line 17, in get_accounts
+    codeCountry = input("Enter your international country code: ")
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 12, in get_accounts
+    with open('/data/accounts.txt') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/accounts.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 30, in arbritage_all_accounts
+    list_accounts = get_accounts()
+  File "main.py", line 17, in get_accounts
+    codeCountry = input("Enter your international country code: ")
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 52, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 33, in arbritage_all_accounts
+    s = datetime.timedelta(current_time) + datetime.timedelta(minutes=time_zone)
+TypeError: unsupported type for timedelta days component: str
+Traceback (most recent call last):
+  File "main.py", line 52, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 33, in arbritage_all_accounts
+    s = datetime.timedelta(gmtime()) + datetime.timedelta(minutes=time_zone)
+TypeError: unsupported type for timedelta days component: time.struct_time
+Traceback (most recent call last):
+  File "main.py", line 51, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 27, in arbritage_all_accounts
+    time_zone = datetime.datetime.now(datetime.timezone.utc).astimezone().tzname()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "main.py", line 51, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 27, in arbritage_all_accounts
+    time_zone = datetime.now(datetime.timezone.utc).astimezone().tzname()
+AttributeError: type object 'datetime.datetime' has no attribute 'timezone'
+Traceback (most recent call last):
+  File "main.py", line 51, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 32, in arbritage_all_accounts
+    s = datetime.timedelta(datetime.datetime.now()) + datetime.timedelta(minutes=time_zone)
+TypeError: unsupported type for timedelta days component: datetime.datetime
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 32, in arbritage_all_accounts
+    cot = cotps.Cotps()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 16, in __init__
+    self.driver = self.launchBrowser()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 45, in launchBrowser
+    driver = webdriver.Chrome(options=opt,desired_capabilities=d)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 70, in __init__
+    super(WebDriver, self).__init__(DesiredCapabilities.CHROME['browserName'], "goog",
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/chromium/webdriver.py", line 92, in __init__
+    RemoteWebDriver.__init__(
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 275, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 365, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 102, in login_process
+    WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH,country_xpath)))
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 89, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x55c7ac34c443 <unknown>
+#1 0x55c7ac0ac6d8 <unknown>
+#2 0x55c7ac0e1b57 <unknown>
+#3 0x55c7ac0e1d21 <unknown>
+#4 0x55c7ac114434 <unknown>
+#5 0x55c7ac0ff0bd <unknown>
+#6 0x55c7ac112131 <unknown>
+#7 0x55c7ac0fef83 <unknown>
+#8 0x55c7ac0d503c <unknown>
+#9 0x55c7ac0d6175 <unknown>
+#10 0x55c7ac38cf86 <unknown>
+#11 0x55c7ac3905ec <unknown>
+#12 0x55c7ac37899e <unknown>
+#13 0x55c7ac391054 <unknown>
+#14 0x55c7ac36d85e <unknown>
+#15 0x55c7ac3aa868 <unknown>
+#16 0x55c7ac3aa9c3 <unknown>
+#17 0x55c7ac3c4263 <unknown>
+#18 0x7fa0577bd609 <unknown>
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 33, in arbritage_all_accounts
+    logged = cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 104, in login_process
+    except TimeoutException:
+NameError: name 'TimeoutException' is not defined
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 33, in arbritage_all_accounts
+    logged = cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 90, in login_process
+    self.driver.get('https://www.cotps.com/#/pages/phonecode/phonecode?from=login')
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 442, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 32, in arbritage_all_accounts
+    cot = cotps.Cotps()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 17, in __init__
+    self.driver = self.launchBrowser()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 46, in launchBrowser
+    driver = webdriver.Chrome(options=opt,desired_capabilities=d)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 70, in __init__
+    super(WebDriver, self).__init__(DesiredCapabilities.CHROME['browserName'], "goog",
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/chromium/webdriver.py", line 92, in __init__
+    RemoteWebDriver.__init__(
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 275, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 365, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 11, in get_accounts
+    with open('data/accounts.txt') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/accounts.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 28, in arbritage_all_accounts
+    list_accounts = get_accounts()
+  File "main.py", line 16, in get_accounts
+    codeCountry = input("Enter your international country code: ")
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 32, in arbritage_all_accounts
+    cot = cotps.Cotps()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 17, in __init__
+    self.driver = self.launchBrowser()
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 46, in launchBrowser
+    driver = webdriver.Chrome(options=opt,desired_capabilities=d)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 70, in __init__
+    super(WebDriver, self).__init__(DesiredCapabilities.CHROME['browserName'], "goog",
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/chromium/webdriver.py", line 89, in __init__
+    self.service.start()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/service.py", line 103, in start
+    sleep(0.5)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 33, in arbritage_all_accounts
+    logged = cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 90, in login_process
+    self.driver.get('https://www.cotps.com/#/pages/phonecode/phonecode?from=login')
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 442, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 33, in arbritage_all_accounts
+    logged = cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 90, in login_process
+    self.driver.get('https://www.cotps.com/#/pages/phonecode/phonecode?from=login')
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 442, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 33, in arbritage_all_accounts
+    logged = cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 103, in login_process
+    WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH,country_xpath)))
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 82, in until
+    raise e
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 78, in until
+    value = method(self._driver)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/support/expected_conditions.py", line 326, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 1251, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression /html/body/uni-app/uni-page/uni-page-wrapper/uni-page-body/uni-view/uni-view[2]/uni-view[201ç] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '/html/body/uni-app/uni-page/uni-page-wrapper/uni-page-body/uni-view/uni-view[2]/uni-view[201ç]' is not a valid XPath expression.
+  (Session info: headless chrome=101.0.4951.54)
+Stacktrace:
+#0 0x55ccef72f443 <unknown>
+#1 0x55ccef48f6d8 <unknown>
+#2 0x55ccef492577 <unknown>
+#3 0x55ccef49241b <unknown>
+#4 0x55ccef4926dc <unknown>
+#5 0x55ccef4c487e <unknown>
+#6 0x55ccef4c4d21 <unknown>
+#7 0x55ccef4f7434 <unknown>
+#8 0x55ccef4e20bd <unknown>
+#9 0x55ccef4f5131 <unknown>
+#10 0x55ccef4e1f83 <unknown>
+#11 0x55ccef4b803c <unknown>
+#12 0x55ccef4b9175 <unknown>
+#13 0x55ccef76ff86 <unknown>
+#14 0x55ccef7735ec <unknown>
+#15 0x55ccef75b99e <unknown>
+#16 0x55ccef774054 <unknown>
+#17 0x55ccef75085e <unknown>
+#18 0x55ccef78d868 <unknown>
+#19 0x55ccef78d9c3 <unknown>
+#20 0x55ccef7a7263 <unknown>
+#21 0x7f4a643dc609 <unknown>
+
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 33, in arbritage_all_accounts
+    logged = cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 119, in login_process
+    self.wait(self.delay)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 33, in arbritage_all_accounts
+    logged = cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 119, in login_process
+    self.wait(self.delay)
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 151, in wait
+    self.action.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/action_chains.py", line 75, in perform
+    self.w3c_actions.perform()
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/common/actions/action_builder.py", line 88, in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 42, in arbritage_all_accounts
+    sys.stdout.write(str(i)+'s left \n')
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 49, in <module>
+    arbritage_all_accounts()
+  File "main.py", line 33, in arbritage_all_accounts
+    logged = cot.login_process(list_accounts[i][0],list_accounts[i][1],list_accounts[i][2])
+  File "/home/loubard/Documents/python/cotps/cotps.py", line 90, in login_process
+    self.driver.get('https://www.cotps.com/#/pages/phonecode/phonecode?from=login')
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 442, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 347, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/loubard/.local/lib/python3.8/site-packages/selenium/webdriver/remote/remote_connection.py", line 369, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/loubard/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
